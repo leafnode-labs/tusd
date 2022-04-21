@@ -10,7 +10,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/tus/tusd/pkg/handler"
+	. "github.com/leafnode-labs/tusd/pkg/handler"
 )
 
 func TestPost(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/leafnode-labs/tusd/pkg/handler"
 	"github.com/stretchr/testify/assert"
-	"github.com/tus/tusd/pkg/handler"
 )
 
 // Test interface implementation of Filestore

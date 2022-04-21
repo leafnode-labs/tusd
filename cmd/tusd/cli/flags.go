@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tus/tusd/cmd/tusd/cli/hooks"
+	"github.com/leafnode-labs/tusd/cmd/tusd/cli/hooks"
 )
 
 var Flags struct {

@@ -83,8 +83,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tus/tusd/internal/uid"
-	"github.com/tus/tusd/pkg/handler"
+	"github.com/leafnode-labs/tusd/internal/uid"
+	"github.com/leafnode-labs/tusd/pkg/handler"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
