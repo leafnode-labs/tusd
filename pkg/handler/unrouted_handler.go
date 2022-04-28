@@ -1035,6 +1035,12 @@ func getHostAndProtocol(r *http.Request, allowForwarded bool) (host, proto strin
 
 	host = r.Host
 
+	if strings.Contains(host, "localhost") {
+		proto = "http"
+	} else {
+		proto = "https"
+	}
+
 	if !allowForwarded {
 		return
 	}
